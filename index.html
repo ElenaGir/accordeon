@@ -6,65 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="">
     <main class="w-screen h-screen flex justify-center">
-        <div class="images bg-white w-4/5 h-2/3 rounded-3xl mt-36 flex justify-center"> 
-            <div class="mt-0"><img src="lozange.svg" alt="image losange gris "></div>   
+        <div class="images bg-white w-4/5 h-2/3 rounded-3xl mt-36 flex justify-center "> 
+            <h1 class="mt-32  font-bold text-3xl  ">FAQ</h1>
+            <div class="absolute mt-0 lg:hidden"><img src="lozange.svg" alt="image losange gris "></div> 
+            <div class=" hidden lg:flex w-full absolute "><img class = " ml-48 mt-28"src="femme-desc.svg" alt="image de femme en marche"></div>  
+            <div class=" hidden lg:flex w-full absolute"><img class = "lg:h-1/2 ml-48 mt-10" src="carres-desc.svg" alt="image losange gris "></div> 
         </div>
-        <div class=" absolute mt-16"><img src="femme.svg" alt="image de femme en marche"></div>
-        <section class="absolute mt-52 w-3/4 flex justify-center">
-            <h1>FAQ</h1>
-            <div class="wrapper">
+        <div class=" absolute mt-16 lg:hidden"><img src="femme.svg" alt="image de femme en marche"></div>
+        
+        <section class="absolute mt-80 w-3/4 flex justify-center">
+            <div class="wrapper w-11/12 lg:w-1/3 lg:ml-96 ">
                 <div class="container">
-                    <div class="question">
+                    <div class="question text-sm mb-3 ">
                     Comment changer les droits sur Linux ?
+                    <!-- <div class="ml-56"><img src="fleche.svg" alt=""></div> -->
                     </div>
                     <div class="answercont">
-                        <div class="answer">
+                        <div class="answer text-xs mb-3">
                         sudo chown -R utilisateur /chemin/vers/dossier
                         sudo chmod -R 755 /chemin/vers/dossier
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="question">
+                <div class="container ">
+                    <div class="question text-sm mb-3 ">
                     Que veut dire la propriété NaN en Js?
                     </div>
                     <div class="answercont">
-                        <div class="answer">
+                        <div class="answer text-xs mb-3">
                         La propriété NaN signifie que la variable en question n’est pas un nombre. (Not a Number).
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <div class="question">
+                    <div class="question text-sm mb-3 ">
                     Est-il possible de modifier un commit ?
                     </div>
                     <div class="answercont">
-                        <div class="answer">
+                        <div class="answer text-xs mb-3">
                         Oui 
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <div class="question">
+                    <div class="question text-sm mb-3 ">
                     Comment mettre à jour Ubuntu ?
                     </div>
                     <div class="answercont">
-                        <div class="answer">
+                        <div class="answer text-xs mb-3">
                         sudo apt update  
                         sudo apt upgrade
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <div class="question">
+                    <div class="question text-sm mb-3 ">
                     Dois-je mettre la balise fin PHP ?> ?
                     </div>
                     <div class="answercont">
-                        <div class="answer">
+                        <div class="answer text-xs mb-3">
                         Il est préférable de ne pas placer la balise de fermeture à la fin du fichier PHP<br><br>
                         </div>
                     </div>
